@@ -27,6 +27,7 @@ button{
 }
 body{
     font-family: 'Roboto', sans-serif ;
+    font-size: 14px;
     color:var(--text-color) ;
 }
 .list{
@@ -149,9 +150,15 @@ body{
         border: 0;
         padding: 10px 32px; 
 }
+.qual{
+        padding-bottom: 0;
+}
 .qual-list{
         display: flex;
         gap:30px;
+}
+.qual-list-item{
+        width: 270px;
 }
 .head-desc{
         font-weight: 700;
@@ -186,15 +193,14 @@ body{
         letter-spacing: 0.03em;
         margin-bottom: 50px;
 }
-.team-item{
-        
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+.team-item{   
         
 }
 .team-name-bord{
         background:var(--third-color);
         padding-top: 30px;
         padding-bottom: 30px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
 }
 .team-name{
