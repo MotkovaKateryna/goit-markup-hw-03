@@ -294,14 +294,18 @@ color: var(--third-color);
 .projects{
         display: flex; 
         flex-wrap: wrap;
-        /* margin-left: -30px; */
+        margin-left: -30px;
         margin-top: -30px;
 }
-.projects .projects-item{
+.projects>.projects-item{
        flex-basis: calc(100% / 3 - 30px);
        margin-left: 30px;
        margin-top: 30px;
 
+}
+.project-text{
+        padding: 20px 24px;
+        border: 1px solid #EEEEEE;
 }
 .proj-name{
         font-weight: 700;
@@ -314,4 +318,5 @@ color: var(--third-color);
         line-height: 1.88;
         letter-spacing: 0.03em;
         color: var(--second-color);
+        margin-top: 4px;
 }
