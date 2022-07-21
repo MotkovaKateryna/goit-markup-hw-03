@@ -222,9 +222,7 @@ body{
 }
 /* footer styles */
 .down{
-    background-color: var(--backg-color);
-}
-.footer-container{
+        background-color: var(--backg-color);
         padding-top: 60px;
         padding-bottom: 60px;
 }
@@ -240,14 +238,20 @@ color: var(--third-color);
         letter-spacing: 0.03em;
         color: var(--third-color);
 }
-.adress-item-mail{
-        margin-top: 9px;
-        margin-bottom: 9px;
+.adress-list{
+        display: flex;
+        flex-direction: column;
+        gap:9px;
+        
 }
+/* .adress-list>li:not(:last-child){
+        outline: 1px solid blue;
+        margin-bottom: 9px;
+} */
 .mail-link,
 .tel-link{
         font-style: normal;
-        line-height: 1.71px;
+        line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
